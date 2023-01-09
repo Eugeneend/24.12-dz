@@ -1,0 +1,53 @@
+.cloud{
+    
+    /* animation-name: landcape;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: landcape;
+    -webkit-animation-duration: 120s;
+    -webkit-animation-iteration-count: infinite; */
+
+    -webkit-animation: landscape 120s infinite;
+    animation: landscape 120s infinite;
+}
+
+.horizont{
+
+    animation-name: landscape;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    -webkit-animation-name: landscape;
+    -webkit-animation-duration: 35s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.hill{
+animation: landscape 20s infinite linear;
+-webkit-animation: landscape 20s infinite linear;
+
+}
+
+.grass{
+    -webkit-animation: landscape 10s infinite linear;
+  animation: landscape 10s infinite linear;}
+
+  .grass2{
+    -webkit-animation: landscape 5s infinite linear;
+    animation: landscape 5s infinite linear;
+  }
+
+  .whell1, .whell2{
+    animation: whell 1s infinite linear;
+    animation-direction: reverse;
+    -webkit-animation: whell 1s infinite linear;
+    animation-direction: reverse;
+  }
+
+  .trailer{
+    animation: trailer 0.5s infinite linear alternate;
+    -webkit-animation: trailer 0.5s infinite linear alternate;
+  }
